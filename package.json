@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "node --watch api.js"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^8.0.1",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "engines": {
+    "node": "v20.5.0"
+  }
+}
